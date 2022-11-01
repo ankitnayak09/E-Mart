@@ -1,0 +1,230 @@
+<!-- 48:15 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>Mobiles | E-Mart</title>
+</head>
+
+<body>
+  <div class="">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="images2/logo.png" width="125px" /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html">
+          <img src="images/cart.png" width="35px" height="35px" />
+          <span class="cart-items-count"></span>
+        </a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="small-container">
+    <div class="row row-2">
+      <h2>All Products</h2>
+      <input type="text" class="searchbar" placeholder="Search..">
+      <select class="categoryOption">
+        <option value="" style="display: none;">Categories</option>
+        <option value="all">All</option>
+        <option value="mobile">Mobile</option>
+        <option value="laptop">Laptop</option>
+        <option value="camera">Camera</option>
+      </select>
+    </div>
+
+    <div class="row" style="align-items: baseline;">
+      <div class="col-4">
+        <img src="images2/mobile/iphone-11.jpeg" />
+        <h4>iPhone 11</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Rs. 35000.00</p>
+        <button class="btn-add2Cart">Add To Cart</button>
+
+      </div>
+      <div class="col-4">
+        <img src="images2/mobile/iphone-12-mini.jpeg" />
+        <h4>iPhone 12 Mini</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Rs. 45000.00</p>
+        <button class="btn-add2Cart">Add To Cart</button>
+
+      </div>
+      <div class="col-4">
+        <img src="images2/mobile/iphone-13.jpeg" />
+        <h4>iPhone 13</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>Rs. 510</p>
+        <button class="btn-add2Cart">Add To Cart</button>
+
+      </div>
+      <div class="col-4">
+        <img src="images2/mobile/iphone-14.jpeg" />
+        <h4>iPhone 14</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Rs. 420</p>
+        <button class="btn-add2Cart">Add To Cart</button>
+
+      </div>
+      <div class="row" style="align-items: baseline;">
+        <!-- <div class="col-4">
+          <img src="images2/mobile/realme-9i.jpeg" />
+          <h4>Realme 9i</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Rs. 350.00</p>
+          <button class="btn-add2Cart">Add To Cart</button>
+        </div> -->
+
+        <div class="col-4">
+          <img src="images2/mobile/realme-c30.jpeg" />
+          <h4>Realme C30</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Rs. 1500.00</p>
+          <button class="btn-add2Cart">Add To Cart</button>
+
+        </div>
+        <div class="col-4">
+          <img src="images2/mobile/realme-gt-neo3.jpeg" />
+          <h4>Realme GT Neo 3</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>Rs. 510</p>
+          <button class="btn-add2Cart">Add To Cart</button>
+
+        </div>
+        <div class="col-4">
+          <img src="images2/mobile/realme-gt2-pro.jpeg" />
+          <h4>Realme GT 2 Pro</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Rs. 420</p>
+          <button class="btn-add2Cart">Add To Cart</button>
+        </div>
+
+        <div class="col-4">
+          <img src="images2/mobile/samsung-galaxy-s22-ultra.jpeg" />
+          <h4>Samsung Galaxy S22 Ultra</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Rs. 420</p>
+          <button class="btn-add2Cart">Add To Cart</button>
+        </div>
+
+        <div class="col-4">
+          <img src="images2/mobile/samsung-zfold4.jpeg" />
+          <h4>Samsung ZFold 4</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Rs. 420</p>
+          <button class="btn-add2Cart">Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- -----footer-------- -->
+
+  <div class="footer">
+    <div class="container">
+      <p class="copyright">Developed By - <a href="https://github.com/ankitnayak09">Ankit Nayak</a></p>
+    </div>
+  </div>
+  <!-- ------------ js for toggle menu----------- -->
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+      if (MenuItems.style.maxHeight == "0px") {
+        MenuItems.style.maxHeight = "200px";
+      } else {
+        MenuItems.style.maxHeight = "0px";
+      }
+    }
+
+    const btnAddCart = document.querySelectorAll('.btn-add2Cart');
+    btnAddCart.forEach(btn => {
+      btn.addEventListener('click', () => {
+
+      })
+    })
+  </script>
+  <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,347 @@
+<!-- 48:15 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>E-Mart | Ecommerce Website</title>
+
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="images2/logo.png" width="125px" /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html">
+          <img src="images/cart.png" width="35px" height="35px" />
+          <span class="cart-items-count"></span>
+        </a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+      </div>
+
+      <div class="row">
+        <div class="col-2">
+          <h1>Step Into The World Of<br />Science & Technology</h1>
+          <!-- <p>
+            Success isn't always about greatness. It's about consistency.
+            Consistent <br />
+            hard work gains success. Greatness will come.
+          </p> -->
+          <a href="./products.html" class="btn">Explore Now &#8594;</a>
+        </div>
+        <div class="col-2">
+          <img src="images2/iphone-hero.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ---- Featured Categories ------ -->
+  <div class="categories">
+    <div class="small-container">
+      <div class="row">
+        <div class="categories-card col-3">
+          <a href="./products-camera.html">
+            <img src="images2/camera/canon-1500d.webp" />
+          </a>
+        </div>
+        <div class="categories-card col-3">
+          <a href="./products-laptop.html">
+            <img src="images2/Laptop/Asus-tuf.webp" />
+          </a>
+        </div>
+        <div class="categories-card col-3">
+          <a href="./products-mobile.html">
+            <img src="images2/mobile/realme-gt2-pro.jpeg" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ----- Featured Products ----- -->
+  <div class="small-container Featured">
+    <h2 class="title">Featured Products</h2>
+    <div class="row" style="align-items: baseline;">
+      <div class="col-4">
+        <img src="images2/mobile/iphone-11.jpeg" />
+        <h4>iPhone 11</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Rs. 69000.00</p>
+        <button class="btn-add2Cart">Add To Cart</button>
+
+      </div>
+      <div class="col-4">
+        <img src="images2/mobile/realme-gt-neo3.jpeg" />
+        <h4>Realme GT Neo 3</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Rs. 35000.00</p>
+        <button class="btn-add2Cart">Add To Cart</button>
+
+      </div>
+      <div class="col-4">
+        <img src="images2/Laptop/hp-omen.webp" />
+        <h4>HP OMEN</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>Rs. 81000</p>
+        <button class="btn-add2Cart">Add To Cart</button>
+
+      </div>
+      <div class="col-4">
+        <img src="images2/camera/canon-90d.webp" />
+        <h4>Canon 9D</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Rs. 72000</p>
+        <button class="btn-add2Cart">Add To Cart</button>
+
+      </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="images2/camera/canon-1500d.webp" />
+        <h4>Canon 1500D</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Rs. 35000.00</p>
+        <button class="btn-add2Cart">Add To Cart</button>
+
+      </div>
+      <div class="col-4">
+        <img src="images2/camera/canon-3000d.webp" />
+        <h4>Canon 3000D</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Rs. 45000.00</p>
+        <button class="btn-add2Cart">Add To Cart</button>
+
+      </div>
+      <div class="col-4">
+        <img src="images2/camera/canon-90d.webp" />
+        <h4>Canon 90D</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>Rs. 510</p>
+        <button class="btn-add2Cart">Add To Cart</button>
+
+      </div>
+      <div class="col-4">
+        <img src="images2/camera/canon-m50.webp" />
+        <h4>Canon M50</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Rs. 420</p>
+        <button class="btn-add2Cart">Add To Cart</button>
+
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="images2/camera/nikon-d750.jpeg" />
+          <h4>Nikon D750</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Rs. 350.00</p>
+          <button class="btn-add2Cart">Add To Cart</button>
+
+        </div>
+        <div class="col-4">
+          <img src="images2/camera/nikon-z30.jpeg" />
+          <h4>Nikon Z30</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Rs. 1500.00</p>
+          <button class="btn-add2Cart">Add To Cart</button>
+
+        </div>
+        <div class="col-4">
+          <img src="images2/camera/nikon-z5.webp" />
+          <h4>Nikon Z5</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>Rs. 510</p>
+          <button class="btn-add2Cart">Add To Cart</button>
+
+        </div>
+        <div class="col-4">
+          <img src="images2/camera/sony-alpha-fullFrame.jpeg" />
+          <h4>Sony Alpha Full Frame</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Rs. 420</p>
+          <button class="btn-add2Cart">Add To Cart</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ----- Testimonial ----- -->
+  <div class="testimonial">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever
+          </p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <img src="images/user-1.png" />
+          <h3>Sean Parker</h3>
+        </div>
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever
+          </p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <img src="images/user-2.png" />
+          <h3>Mike Smith</h3>
+        </div>
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever
+          </p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <img src="images/user-3.png" />
+          <h3>Mabel Joe</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- -----footer-------- -->
+
+  <div class="footer">
+    <div class="container">
+      <p class="copyright">Developed By - <a href="https://github.com/ankitnayak09">Ankit Nayak</a></p>
+    </div>
+  </div>
+
+
+  <!-- ------------ js for toggle menu----------- -->
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+      if (MenuItems.style.maxHeight == "0px") {
+        MenuItems.style.maxHeight = "200px";
+      }
+      else {
+        MenuItems.style.maxHeight = "0px";
+      }
+    }
+  </script>
+
+  <script src="./script.js"></script>
+
+
+</body>
+
+</html>
