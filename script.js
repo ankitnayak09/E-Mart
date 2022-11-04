@@ -5,31 +5,31 @@ function updateCart() {
 	cartItemsIndicator.textContent = Object.keys(cartItems).length;
 }
 
-// function updateCartItems() {
-// 	localStorage.setItem("cartItems", JSON.stringify(cartItems));
-// }
+function updateCartItems() {
+	localStorage.setItem("cartItems", JSON.stringify(cartItems));
+}
 
 const add2CartBtn = document.querySelectorAll(".btn-add2Cart");
 
 add2CartBtn.forEach((btn) => {
 	btn.addEventListener("click", () => {
-		// let product = btn.parentElement;
-		// let productId = product.dataset.prodid;
-		// let productName = product.querySelector("h4").textContent;
+		let product = btn.parentElement;
+		let productId = product.dataset.prodid;
+		let productName = product.querySelector("h4").textContent;
 		// let productPrice = product.querySelector("p span").textContent;
 
-		// let productObj = {
-		// 	productName: productName,
-		// 	productPrice: productPrice,
-		// };
+		let productObj = {
+			productName: productName,
+			// productPrice: productPrice,
+		};
 
-		// cartItems[productId] = productObj;
-		// console.log(cartItems);
-		// updateCart();
+		cartItems[productId] = productObj;
+		console.log(cartItems);
+		updateCart();
 		btn.textContent = "Added to Cart";
 		// TODO: Change the Back Color
 		btn.style.backgroundColor = "Green";
-		// updateCartItems();
+		updateCartItems();
 
 		// JSON.parse(localStorage.getItem('cartItems'))
 	});
